@@ -6,9 +6,14 @@
     (slurp (io/resource resource))
     (clojure.string/split #"\n")))
 
-(->>
- (parse-input {:resource "chronal-calibration/input.txt"})
- (map read-string)
- (reduce +))
+(def frequency
+  (->>
+    (parse-input {:resource "chronal-calibration/input.txt"})
+    (map read-string)))
+
+(frequencies (reductions + frequency))
+
+(frequencies [1 2])
 
 
+(reduce (fn [acc x] (if (odd? x) (reduced x) (* acc x))) 1 (range 10))

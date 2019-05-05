@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f5e620e7-5a62-4422-9b68-ed3a7f5fde0d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventofcode/chronal_calibration.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/adventofcode/chronal_calibration.clj" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/chronal-calibration/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="19" column="2" lean-forward="true" selection-end-line="1014" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.clj" />
+        <option value="$PROJECT_DIR$/src/adventofcode/chronal_calibration.clj" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="adventofcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adventofcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adventofcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="chronal-calibration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adventofcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adventofcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Clojure" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="ReplState" timestamp="1543763641502">{:repl-history {:ide [], :local [{:command &quot;(map inc (range 100))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;[]&quot;, :offset 2, :ns &quot;user&quot;} {:command &quot;(defn foo [])&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(reductions inc (range 10))&quot;, :offset 27, :ns &quot;user&quot;} {:command &quot;(defn parse-input [{:keys [resource]}]\n  (-&gt;\n    (slurp (io/resource resource))\n    (clojure.string/split #\&quot;\\n\&quot;)))&quot;, :offset 114, :ns &quot;adventofcode.chronal-calibration&quot;} {:command &quot;(-&gt;&gt;\n (parse-input {:resource \&quot;chronal-calibration/input.txt\&quot;})\n (map read-string)\n (reduce +))&quot;, :offset 95, :ns &quot;adventofcode.chronal-calibration&quot;} {:command &quot;(def frequencies\n  (-&gt;&gt;\n    (parse-input {:resource \&quot;chronal-calibration/input.txt\&quot;})\n    (map read-string)\n    (reduce +)))&quot;, :offset 124, :ns &quot;adventofcode.chronal-calibration&quot;} {:command &quot;(def frequency\n  (-&gt;&gt;\n    (parse-input {:resource \&quot;chronal-calibration/input.txt\&quot;})\n    (map read-string)\n    (reduce +)))&quot;, :offset 122, :ns &quot;adventofcode.chronal-calibration&quot;} {:command &quot;(def frequncy\n  (-&gt;&gt;\n    (parse-input {:resource \&quot;chronal-calibration/input.txt\&quot;})\n    (map read-string)))&quot;, :offset 106, :ns &quot;adventofcode.chronal-calibration&quot;} {:command &quot;(reductions + frequncy)&quot;, :offset 23, :ns &quot;adventofcode.chronal-calibration&quot;} {:command &quot;(frequencies\n  (reductions + frequncy))&quot;, :offset 39, :ns &quot;adventofcode.chronal-calibration&quot;} {:command &quot;(ns adventofcode.chronal-calibration\n    (:require [clojure.java.io :as io]))&quot;, :offset 77, :ns &quot;user&quot;} {:command &quot;(frequencies (reductions + frequncy))&quot;, :offset 37, :ns &quot;adventofcode.chronal-calibration&quot;} {:command &quot;(frequencies [1 2])&quot;, :offset 19, :ns &quot;adventofcode.chronal-calibration&quot;} {:command &quot;(reduce (fn [acc x] (if (zero? x) (reduced x) (* acc x))) 0 (range 10))&quot;, :offset 71, :ns &quot;adventofcode.chronal-calibration&quot;} {:command &quot;(reduce (fn [acc x] (if (zero? x) (reduced x) (* acc x))) 1 (range 10))&quot;, :offset 71, :ns &quot;adventofcode.chronal-calibration&quot;} {:command &quot;(reduce (fn [acc x] (if (odd? x) (reduced x) (* acc x))) 1 (range 10))&quot;, :offset 70, :ns &quot;adventofcode.chronal-calibration&quot;}], :remote []}}</component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="REPL for adventofcode" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <module name="adventofcode" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="0" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../TwitterClient" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15220049" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49938875" weight="0.3991462" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4987775" weight="0.33296582" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="REPL" order="11" sideWeight="0.5012225" side_tool="true" visible="true" weight="0.33089006" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Leiningen" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.clj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adventofcode/chronal_calibration.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="18" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/chronal-calibration/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" column="2" lean-forward="true" selection-end-line="1014" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
